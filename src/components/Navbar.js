@@ -23,6 +23,9 @@ const MyComponent = () => {
             <a class="nav-link" href="#">about me</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#">services</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#">experience</a>
           </li>
           <li class="nav-item">
