@@ -18,7 +18,7 @@
 
 
 body {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed", sans-serif !important;
 }
 
 /************************************ NAVBAR ************************************/
@@ -143,8 +143,18 @@ navbar-brand {
   z-index: 1;
 }
 
-@media(max-width: 768px){
+/*@media(max-width: 768px){
   .particles-canvas{
-    /*display:none;*/
+    display:none;
   }
+}
+*/
+
+/************************************ NAVBAR ************************************/
+
+.profile-img {
+  width: 16rem;
+  border-radius: 25%;
+  padding: .3rem;
+  border: 1px solid var(--light-blue-palette);
 }
