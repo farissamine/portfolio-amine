@@ -6,12 +6,12 @@ const AboutMe = () => {
         <div class= "container py-5">
             <div class="row">
                 <div class = "col-lg-6 col-xm-12">
-                    <div clas="photo-wrap">
+                    <div class="photo-wrap mb-5">
                         <img class="profile-img" src={author} alt="author..."/>
                     </div>
                 </div>
                 <div class = "col-lg-6 col-xm-12">
-                    <h1>about me</h1>
+                    <h1 class ="about-heading">about me</h1>
                     <p>
                         Hello, I am Amine. I have been developing software professionally for about 2 years. I am a Full-Stack developer and I mostly enjoy working on back end systems. I find enjoyment in immediately seeing the results of my code in robotic functions. I also aspire to develop code that can be aidful to those in the medical industry.
 

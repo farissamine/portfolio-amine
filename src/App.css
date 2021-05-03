@@ -150,11 +150,28 @@ navbar-brand {
 }
 */
 
-/************************************ NAVBAR ************************************/
+/************************************ ABOUT ME ************************************/
+
+.photo-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .profile-img {
   width: 16rem;
-  border-radius: 25%;
+  border-radius: 50%;
   padding: .3rem;
   border: 1px solid var(--light-blue-palette);
+}
+
+.about-heading{
+  color: var(--light-blue-palette);
+  text-transform: uppercase;
+}
+
+@media(max-width: 468px){
+  .profile-img{
+    width:10rem;
+  }
 }
