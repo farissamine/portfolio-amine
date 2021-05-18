@@ -19,7 +19,15 @@ const openPopupboxFlappy = () => {
     </>
     )
 
-    PopupboxManager.open({ content })   
+    PopupboxManager.open({ content });
+    PopupboxManager.update({
+        content,
+        config: {
+          titleBar: {
+            text: "Flappy Bird clone project.",
+          },
+        },
+      });  
 }
 const popupboxConfigFlappy = {
     titleBar:{
@@ -44,7 +52,15 @@ const openPopupboxIosCalc = () => {
     </>
     )
 
-    PopupboxManager.open({ content })   
+    PopupboxManager.open({ content });
+    PopupboxManager.update({
+        content,
+        config: {
+          titleBar: {
+            text: "iOS Calculator Application",
+          },
+        },
+      });   
 }
 const popupboxConfigIosCalc = {
     titleBar:{
@@ -69,7 +85,15 @@ const openPopupboxBattleship = () => {
     </>
     )
 
-    PopupboxManager.open({ content })   
+    PopupboxManager.open({ content });
+    /*PopupboxManager.update({
+        content,
+        config: {
+          titleBar: {
+            text: "Battleship Application.",
+          },
+        },
+      }); */
 }
 const popupboxConfigBattleship = {
     titleBar:{
