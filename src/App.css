@@ -161,8 +161,8 @@ navbar-brand {
     font-size: 20pt !important;
    }
    .header-wrapper{
-     /*background-attachment: scroll;*/
-     background-size: 200vh auto ;
+     background-attachment: scroll;
+     /*background-size: 200vh auto ;*/
      
    }
 }
@@ -652,6 +652,7 @@ navbar-brand {
   .testimonials{
     background-size: 150vh auto ;
     background-position: center;
+    background-attachment: scroll;
   }
 }
 

@@ -24,6 +24,7 @@ const Contacts = () => {
             userID
         )
         r.target.reset();
+        
     }
 
     const sendEmail = (serviceID, templateID, variables, userID) => {        
