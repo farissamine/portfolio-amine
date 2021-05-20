@@ -23,7 +23,7 @@ export const TestimonialsCarousel = () => {
             <div className="myCarousel">
             <h3 className>John Doe 1</h3>
             <p>
-                Lorem ipsum ariatur labore dolore Lorem sint qui reprehenderit et aliquip tempor aliquip ex dolore. Voluptate deserunt duis culpa dolor labore id. Tempor proident labore dolor consectetur fugiat deserunt aliqua laborum ad sunt pariatur tempor quis. Proident dolore ad nulla in eiusmod nostrud. Minim sint esse non quis tempor ut nostrud id minim do culpa aute. Reprehenderit duis sit velit eiusmod consectetur eiusmod.
+                Lorem ipsum ariatur labore dolore Lorem sint qui reprehenderit et aliquip tempor aliquip ex dolore. Voluptate deserunt duis culpa dolor labore id. Tempor proident labore dolor consectetur fugiat deserunt aliqua laborum ad sunt pariatur tempor quis.
             </p>
             </div>
             </>
@@ -33,7 +33,7 @@ export const TestimonialsCarousel = () => {
             <div className="myCarousel">
             <h3>Jane Doe 2</h3>
             <p>
-                Lorem ipsum ariatur labore dolore Lorem sint qui reprehenderit et aliquip tempor aliquip ex dolore. Voluptate deserunt duis culpa dolor labore id. Tempor proident labore dolor consectetur fugiat deserunt aliqua laborum ad sunt pariatur tempor quis. Proident dolore ad nulla in eiusmod nostrud. Minim sint esse non quis tempor ut nostrud id minim do culpa aute. Reprehenderit duis sit velit eiusmod consectetur eiusmod.
+                Lorem ipsum ariatur labore dolore Lorem sint qui reprehenderit et aliquip tempor aliquip ex dolore. Voluptate deserunt duis culpa dolor labore id. Tempor proident labore dolor consectetur fugiat deserunt aliqua laborum ad sunt pariatur tempor quis. 
             </p>
             </div>
             </>
@@ -43,7 +43,7 @@ export const TestimonialsCarousel = () => {
             <div className="myCarousel">
             <h3>John Doe 3</h3>
             <p>
-                Lorem ipsum ariatur labore dolore Lorem sint qui reprehenderit et aliquip tempor aliquip ex dolore. Voluptate deserunt duis culpa dolor labore id. Tempor proident labore dolor consectetur fugiat deserunt aliqua laborum ad sunt pariatur tempor quis. Proident dolore ad nulla in eiusmod nostrud. Minim sint esse non quis tempor ut nostrud id minim do culpa aute. Reprehenderit duis sit velit eiusmod consectetur eiusmod.
+                Lorem ipsum ariatur labore dolore Lorem sint qui reprehenderit et aliquip tempor aliquip ex dolore. Voluptate deserunt duis culpa dolor labore id. Tempor proident labore dolor consectetur fugiat deserunt aliqua laborum ad sunt pariatur tempor quis.
             </p>
             </div>
             </>
@@ -53,7 +53,7 @@ export const TestimonialsCarousel = () => {
             <div className="myCarousel">
             <h3>John Doe 4</h3>
             <p>
-                Lorem ipsum ariatur labore dolore Lorem sint qui reprehenderit et aliquip tempor aliquip ex dolore. Voluptate deserunt duis culpa dolor labore id. Tempor proident labore dolor consectetur fugiat deserunt aliqua laborum ad sunt pariatur tempor quis. Proident dolore ad nulla in eiusmod nostrud. Minim sint esse non quis tempor ut nostrud id minim do culpa aute. Reprehenderit duis sit velit eiusmod consectetur eiusmod.
+                Lorem ipsum ariatur labore dolore Lorem sint qui reprehenderit et aliquip tempor aliquip ex dolore. Voluptate deserunt duis culpa dolor labore id. Tempor proident labore dolor consectetur fugiat deserunt aliqua laborum ad sunt pariatur tempor quis. 
             </p>
             </div>
             </>

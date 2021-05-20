@@ -12,10 +12,13 @@ import Testimonials from "./components/Testimonials";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 
+document.title="Amine Aboufariss Portfolio";
+
 function App() {
   
   return (
     <>
+      
       <Particles 
         className="particles-canvas"
         params={{

@@ -112,7 +112,7 @@ export const Projects = () => {
     return (
         <div id ="projects" className = "project-wrapper">
             <div className="container">
-                <h1 className="text-uppercase text-center py-5">Projects</h1>
+                <h1 className="text-uppercase text-center py-5">Projects<div className="project-header-bar"></div></h1>
 
                 <div className="image-box-wrapper row justify-content-center">
                     

@@ -15,8 +15,8 @@ const Footer = () => {
     return (
         <div className="footer" >
             <div className="container">
-                <div className="row">
-                    <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="">{/*used to be a row*/}
+                    {/*<div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="d-flex">
                             <p>Glen Ellyn, Illinois</p>
                         </div>
@@ -26,8 +26,8 @@ const Footer = () => {
                         <div className="d-flex">
                             <p>Farissamine99@gmail.com</p>
                         </div>
-                    </div>
-                    <div className="col-lg-3 col-md-2 col-sm-6">
+                    </div>/*}
+                    {/*<div className="col-lg-3 col-md-2 col-sm-6">
                         <div className ="row">
                             <div className="col">
                                 <a className = "footer-nav">Home</a>
@@ -41,12 +41,12 @@ const Footer = () => {
                                 <br />
                                 <a className = "footer-nav">Projects</a>
                                 {/*<a className = "footer-nav">Interests</a>*/}
-                                <br />
+                                {/*<br />
                                 <a className = "footer-nav">Contacts</a>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
+                    </div>*/}
+                    <div className="align-items-center"> {/*col-lg-5 col-md-5 col-sm-6 */}
                         <div className="d-flex justify-content-center">
                             <FacebookShareButton
                                 url={""}
@@ -81,9 +81,11 @@ const Footer = () => {
                                 <LinkedinIcon className="mx-3" size={36} />
                             </LinkedinShareButton>
                         </div>
-                        <p className="pt-3 text-center">
-                            Copyright&copy;
-                            {new Date().getFullYear()}&nbsp;Amine Aboufariss | All Rights Reserved
+                        <p className="pt-4 text-center footer-name">
+                            AMINE ABOUFARISS&nbsp;
+                            <span className = "footer-pink">
+                            ©{new Date().getFullYear()}
+                            </span>
                         </p>
                     </div>
                 </div>

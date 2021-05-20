@@ -4,7 +4,7 @@ export const Experience = () => {
     return (
         <div id="experience" className="experience">
             <div className = " d-flex justify-content-center my-5">
-                <h1>experience</h1>
+                <h1>experience<div className="experience-header-bar"></div></h1>
             </div>
 
             <div className= "container experience-wrapper">
@@ -56,7 +56,7 @@ export const Experience = () => {
                         <h3>2020</h3>
                         <h4>DePaul University</h4>
                         <p>Graduated from DePaul University with a Bachelor's Degree in Computer Science</p>
-                        <br/><br/><br/><br/><br/>
+                        
                     </div>
                 </div>
                 {/* - */}

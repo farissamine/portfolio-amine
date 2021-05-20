@@ -8,27 +8,37 @@ import { faGraduationCap, faCogs, faFileCode, faTerminal} from "@fortawesome/fre
 const Services = () => {
     return(
         <div id="services" className = "services">
-            <h1 className = "py-5">my services</h1>
+            <h1 className = "py-5">my services<div className="services-header-bar"></div></h1>
+            
                 <div className= "container">
                     <div className= "row">
+                        <div className="col-lg-3 col-md-6 col--sm-6">
+                            <div className= "box">
+                                <div className="circle"><FontAwesomeIcon className="icon" icon={faGraduationCap} size='2x'/></div>
+
+                                <h3>Software<br/> Tutoring</h3>
+                                <p>I will help you accomplish your software projects, and guide you to towards a complete understanding of your code.</p>
+                            </div>
+                        </div>
+                        {/* - */}
                         <div className="col-lg-3 col-md-6 col--sm-6">
                             <div className= "box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faTerminal} size='2x'/></div>
 
                                 <h3>Software Development</h3>
-                                <p>Your software requirements will be assessed and developed with efficiency.</p>
+                                <p>Your software requirements will be assessed and developed with efficiency and scalability.</p>
                             </div>
                         </div>
+                        {/* - */}
                         {/* - */}
                         <div className="col-lg-3 col-md-6 col--sm-6">
                             <div className= "box">
-                                <div className="circle"><FontAwesomeIcon className="icon" icon={faGraduationCap} size='2x'/></div>
+                                <div className="circle"><FontAwesomeIcon className="icon" icon={faCogs} size='2x'/></div>
 
-                                <h3>Software Tutoring</h3>
-                                <p>I will help you accomplish your software projects, and guide you to understand the code being written.</p>
+                                <h3>Back End Development</h3>
+                                <p>Accelerate the development and success of your back end algorithms and technologies.</p>
                             </div>
                         </div>
-                        {/* - */}
                         <div className="col-lg-3 col-md-6 col--sm-6">
                             <div className= "box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size='2x'/></div>
@@ -37,15 +47,7 @@ const Services = () => {
                                 <p>Your websites will be built with new and proven technologies.</p>
                             </div>
                         </div>
-                        {/* - */}
-                        <div className="col-lg-3 col-md-6 col--sm-6">
-                            <div className= "box">
-                                <div className="circle"><FontAwesomeIcon className="icon" icon={faCogs} size='2x'/></div>
-
-                                <h3>Back End Development</h3>
-                                <p>accelerate the development and success of your back end technologies.</p>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
