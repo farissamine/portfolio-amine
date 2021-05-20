@@ -650,9 +650,9 @@ navbar-brand {
 
 @media(max-width: 768px){
   .testimonials{
-    background-size: 150vh auto ;
+    height:max-content;
     background-position: center;
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
 }
 

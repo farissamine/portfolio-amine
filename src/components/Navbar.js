@@ -11,7 +11,7 @@ import {faBars} from "@fortawesome/free-solid-svg-icons";
 
 const MyComponent = () => {
   return (
-    <nav id="my-navbar" class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav id="my-navbar" class="navbar  navbar-expand-lg navbar-light fixed-top">
     <div class="container">
       {/*<a class="navbar-brand" href="#"><img class="logo" src ={whitelogo}/></a>*/}
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
