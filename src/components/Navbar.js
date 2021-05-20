@@ -31,9 +31,9 @@ const MyComponent = () => {
           <li class="nav-item">
             <a class="nav-link" href="#">projects</a>
           </li>
-          <li class="nav-item">
+          {/*<li class="nav-item">
             <a class="nav-link" href="#">interests</a>
-          </li>
+          </li>*/}
           <li class="nav-item">
             <a class="nav-link" href="#">contact me</a>
           </li>
