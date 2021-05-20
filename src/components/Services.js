@@ -7,7 +7,7 @@ import { faGraduationCap, faCogs, faFileCode, faTerminal} from "@fortawesome/fre
 
 const Services = () => {
     return(
-        <div className = "services">
+        <div id="services" className = "services">
             <h1 className = "py-5">my services</h1>
                 <div className= "container">
                     <div className= "row">

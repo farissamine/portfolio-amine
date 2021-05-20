@@ -79,12 +79,13 @@ navbar-brand {
 /************************************ HEADER ************************************/
 
 .header-wrapper {
+  margin-top: 8rem;
   position: relative;
   background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1) ), url(techbg1.jpg) no-repeat ;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  height:90vh;
+  height:100vh;
 }
 
 .main-info{
@@ -145,6 +146,7 @@ navbar-brand {
 
 /*------- particles js --------*/
 .tsparticles-canvas-el{
+  
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -411,6 +413,13 @@ navbar-brand {
   opacity:70%;
   transition: 0.3s ease-in-out;
   cursor:pointer;
+}
+.popupbox-wrapper{
+  margin-top: 8rem;
+}
+
+.popupbox-overlay{
+  opacity: 25% !important
 }
 
 
