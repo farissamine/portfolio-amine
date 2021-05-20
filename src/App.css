@@ -652,7 +652,7 @@ navbar-brand {
   .testimonials{
     height:80%;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
 }
 
