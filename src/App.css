@@ -94,6 +94,7 @@ navbar-brand {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height:100vh;
 }
 
@@ -160,7 +161,9 @@ navbar-brand {
     font-size: 20pt !important;
    }
    .header-wrapper{
-     background-attachment: scroll;
+     /*background-attachment: scroll;*/
+     background-size: 200vh auto ;
+     
    }
 }
 
@@ -643,6 +646,13 @@ navbar-brand {
 .carousel-root{
   margin:auto !important;
   margin-top: 3% !important;
+}
+
+@media(max-width: 768px){
+  .testimonials{
+    background-size: 150vh auto ;
+    background-position: center;
+  }
 }
 
 /************************************ Contacts component ************************************/
