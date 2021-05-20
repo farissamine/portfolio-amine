@@ -143,6 +143,7 @@ navbar-brand {
   
   /*margin-top: -.5rem;*/
   font-size: 30pt;
+  font-size: 1;
   color:var(--pink-palette);
   
   font-family: "raleway"im !important;
@@ -150,12 +151,19 @@ navbar-brand {
 
 @media(max-width: 768px){
   .main-info h1{
-    font-size: 1.5rem !important;
+    font-size: 20pt !important;
+  }
+  .main-info .text{
+    font-size: 20pt !important;
   }
   .typed-text{
-    font-size: 1.3rem !important;
+    font-size: 20pt !important;
+   }
+   .header-wrapper{
+     background-attachment: scroll;
    }
 }
+
 
 /*------- header main offer button --------*/
 
