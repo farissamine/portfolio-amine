@@ -20,7 +20,7 @@ const Services = () => {
                                 <p>I will help you accomplish your software projects, and guide you to towards a complete understanding of your code.</p>
                             </div>
                         </div>
-                        {/* - */}
+                        {/* -  */}
                         <div className="col-lg-3 col-md-6 col--sm-6">
                             <div className= "box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faTerminal} size='2x'/></div>
