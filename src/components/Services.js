@@ -17,7 +17,7 @@ const Services = () => {
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faGraduationCap} size='2x'/></div>
 
                                 <h3>Software<br/> Tutoring</h3>
-                                <p>I will help you accomplish your software projects, and guide you to towards a complete understanding of your code.</p>
+                                <p>Accomplish your software projects, and attain a complete understanding of your code.</p>
                             </div>
                         </div>
                         {/* -  */}
@@ -26,7 +26,7 @@ const Services = () => {
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faTerminal} size='2x'/></div>
 
                                 <h3>Software Development</h3>
-                                <p>Your software requirements will be assessed and developed with efficiency and scalability.</p>
+                                <p>Software requirements will be assessed and developed with efficiency and scalability.</p>
                             </div>
                         </div>
                         {/* - */}
@@ -44,7 +44,7 @@ const Services = () => {
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size='2x'/></div>
 
                                 <h3>Web Development</h3>
-                                <p>Your websites will be built with new and proven technologies.</p>
+                                <p>Work with responsive layouts and UIs that are mobile friendly, intuitive, dynamic.</p>
                             </div>
                         </div>
                         
