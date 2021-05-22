@@ -1,0 +1,15 @@
+
+
+.projectsList{
+            
+    font-size: 13pt;
+    margin-right: 0 25px;
+    padding: 0 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+    &.active{
+        background-color: var(--pink-palette);
+        color:white;
+    }
+}

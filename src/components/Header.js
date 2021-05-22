@@ -21,7 +21,7 @@ const Header = () => {
                     loop
                 />
                 </div>
-                <Link class="button view-work btn-main-offer page nav-link" smooth={true} offset={-50} to="about">View my work</Link>
+                <Link className="button view-work btn-main-offer page nav-link" smooth={true} offset={-50} to="about">View my work</Link>
             </div>
 
         </div>
