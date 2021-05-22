@@ -85,10 +85,7 @@ const Projects2 = () => {
                 ))}
             </ul>
             <div className="container">
-                <div className="item">
-                    <img src= {flappy} alt=""/>
-                    <h3>Flappy Bird</h3>
-                </div>
+                
                 {data.map(d=>(
                     <div className="item">
                     <img src= {d.image} alt=""/>
