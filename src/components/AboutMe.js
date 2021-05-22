@@ -21,7 +21,7 @@ const AboutMe = () => {
                         <br /><br />
                         I am an experienced Software Engineer with a demonstrated history of working in the law and industrial automation industry. Skilled in Java, Python, C++, JavaScript and a few other languages, I am a strong engineering professional with a Bachelor's degree focused in Computer Science from DePaul University.
                         <br /><br />
-                        My experience as a professional programmer for the past 2 years, ability to learn languages quickly and effectively, and love for coding in my free time, make me an excellent software developer. 
+                        My experience as a professional programmer for the past 2 years, ability to learn languages quickly and effectively, and love for coding in my free time, all make me an excellent software developer. 
                     </p>
                 </div>
             </div>    
