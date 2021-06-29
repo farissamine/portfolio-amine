@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import '../project.scss';
+import '../project2.scss';
 import flappy from "../images/flappystill.png";
 import ProjectsList from "../projectsList/ProjectsList";
 
@@ -9,7 +9,7 @@ import{
     mobilePortfolio,
     designPortfolio,
     contentPortfolio,
-} from "../projectsList/data"
+} from "../projectsList/data";
 
 const Projects2 = () => {
 
@@ -22,11 +22,11 @@ const Projects2 = () => {
         },
         {
             id: "web",
-            title: "Web App",
+            title: "Web",
         },
         {
             id: "mobile",
-            title: "Mobile App",
+            title: "Mobile",
         },
         {
             id: "design",
@@ -60,42 +60,33 @@ const Projects2 = () => {
                 break;
             default:
                 setData(featuredPortfolio);
-
-            
-
         }
-
-    },[selected])
+    },[selected]);
 
     return (
-        
         <div id ="projects" className = "projects">
             <div className="">
                 <h1 className="text-uppercase">Projects<div className="hbar"></div></h1>
             </div>
 
             <ul>
-                {list.map(item=>(
+                {list.map((item) => (
                     <ProjectsList 
                         title={item.title} 
                         active={selected === item.id}
                         setSelected={setSelected}
                         id={item.id}
-                        />
+                    />
                 ))}
             </ul>
             <div className="container">
-                
-                {data.map(d=>(
+                {data.map((d) => (
                     <div className="item">
-                    <img src= {d.image} alt=""/>
+                    <img src= {d.img} alt=""/>
                         <h3>{d.title}</h3>
                     </div>
                 ))}
-                
             </div>
-
-
         </div>
         
 
@@ -199,7 +190,7 @@ const Projects2 = () => {
             
         </section>*/
         
-    )
+    );
 }
 
 export default Projects2

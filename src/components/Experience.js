@@ -60,6 +60,17 @@ export const Experience = () => {
                     </div>
                 </div>
                 {/* - */}
+                <div className = "timeline-block timeline-block-right">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3>2021</h3>
+                        <h4>G4S</h4>
+                        <h6>Software Developer</h6>
+                        <p> • Developed software for surveillance systems
+                        </p>
+                    </div>
+                </div>
+                {/* - */}
             </div>
         </div>
     )
