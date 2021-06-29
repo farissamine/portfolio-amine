@@ -65,10 +65,10 @@
         border-radius: 10px;
         
         li{
-            
+            cursor:pointer;
             font-size: 13pt;
             margin: 0 25px;
-            padding: 0 40px;
+            padding: 6px 40px;
             font-weight: 500;
             text-transform: uppercase;
             &.active{
@@ -125,3 +125,24 @@
     }
 }
 
+@media(max-width: 768px){
+    .projects ul li{
+        margin: 10px 6px;
+        padding: 10px 25px;
+        
+        text-align: center;
+        vertical-align: center;
+        
+    }
+}
+
+@media(max-width: 468px){
+    .projects ul li{
+        margin: 20px 5px;
+        padding: 3px 8px;
+        font-size: 13px;
+        text-align: center;
+        vertical-align: center;
+        
+    }
+}
